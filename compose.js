@@ -8,6 +8,6 @@ const add = (x, y) => x + y
 const square = (z) => z * z
 const doble = (m) => m * 2
 
-const nf = compose(add)
+const nf = compose(add, square, doble)
 
 console.log(nf(1, 2))
