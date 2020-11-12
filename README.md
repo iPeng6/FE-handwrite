@@ -3,6 +3,6 @@
 
 TODO
 
-- [ ] deepCopy.js
 - [ ] LRU.js
 - [ ] EventEmitter.js
+- [ ] urlParse

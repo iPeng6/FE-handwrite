@@ -1,6 +1,12 @@
+// function compose(...fns) {
+//   return (...args) => {
+//     return fns.slice(1).reduce((ret, fn) => fn(ret), fns[0](...args))
+//   }
+// }
+
 function compose(...fns) {
   return (...args) => {
-    return fns.slice(1).reduce((ret, fn) => fn(ret), fns[0](...args))
+    return fns.reduce((a, b) => b.apply(null, [].concat(a)), args)
   }
 }
 
