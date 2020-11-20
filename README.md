@@ -4,5 +4,5 @@
 TODO
 
 - [ ] LRU.js
-- [ ] EventEmitter.js
 - [ ] urlParse
+- [ ] deepEqual
